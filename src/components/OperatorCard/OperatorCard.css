@@ -1,0 +1,66 @@
+/* src/components/OperatorCard/OperatorCard.css */
+.operator-card {
+  position: relative;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.operator-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.rarity-6 {
+  background: linear-gradient(135deg, #3a2c00, #6d4a17);
+  border: 1px solid #ffd700;
+}
+
+.rarity-5 {
+  background: linear-gradient(135deg, #2a1c38, #4a2c68);
+  border: 1px solid #c77ee4;
+}
+
+.rarity-4 {
+  background: linear-gradient(135deg, #1a2c48, #2a4c78);
+  border: 1px solid #5d7ea7;
+}
+
+.rarity-3 {
+  background: linear-gradient(135deg, #1a3c28, #2a6c48);
+  border: 1px solid #5a9367;
+}
+
+.operator-card.up {
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.operator-rarity {
+  color: #ffd700;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.operator-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.operator-class {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+}
+
+.up-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #ffd700;
+  color: #000;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}

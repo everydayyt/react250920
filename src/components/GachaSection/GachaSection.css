@@ -1,0 +1,218 @@
+.gacha-section {
+  background-color: #2a2a3a;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.gacha-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 15px;
+}
+
+.gacha-header h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #f8f8f8;
+}
+
+.pool-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.pool-tab {
+  padding: 8px 15px;
+  background-color: #3a3a4a;
+  border: none;
+  border-radius: 5px;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.pool-tab.active {
+  background-color: #1890ff;
+  color: white;
+}
+
+.gacha-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.resource-display {
+  display: flex;
+  gap: 20px;
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.currency-icon {
+  font-size: 20px;
+}
+
+.currency-value {
+  font-weight: bold;
+}
+
+.currency-name {
+  color: #aaa;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.btn-single {
+  background-color: #1890ff;
+  color: white;
+}
+
+.btn-ten {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.btn-icon {
+  font-size: 18px;
+}
+
+.btn-cost {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.probability-display {
+  margin-bottom: 20px;
+}
+
+.probability-display h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #ddd;
+}
+
+.probability-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.probability-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rarity {
+  width: 70px;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.rate {
+  width: 40px;
+  text-align: right;
+}
+
+.bar-fill {
+  height: 10px;
+  background-color: #1890ff;
+  border-radius: 5px;
+}
+
+.pity-counter {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.pity-counter.active {
+  background-color: rgba(255, 77, 79, 0.1);
+}
+
+.pity-progress {
+  height: 20px;
+  background-color: #3a3a4a;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #1890ff, #69c0ff);
+  transition: width 0.3s;
+}
+
+.pity-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.pity-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.pool-info {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.pool-badge {
+  background-color: #3a3a4a;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.limited-tag {
+  background-color: rgba(255, 77, 79, 0.2);
+  color: #ff4d4f;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}

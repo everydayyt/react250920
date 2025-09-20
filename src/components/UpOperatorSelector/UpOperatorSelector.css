@@ -1,0 +1,36 @@
+/* 新增类型标签样式 */
+.operator-type {
+  font-size: 0.75rem;
+  color: #666;
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+/* 不同类型颜色区分 */
+.operator-type[data-type="标准"] {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.operator-type[data-type="夏活限定"] {
+  background: #ffebee;
+  color: #d32f2f;
+}
+
+.operator-type[data-type="周年限定"] {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.operator-type[data-type="中坚"] {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+/* 多类型标签样式 */
+.operator-type.multiple {
+  background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+  color: #333;
+}
