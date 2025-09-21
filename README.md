@@ -1,3 +1,6 @@
+这是一个自由的明日方舟抽卡，当前没有导入任何干员立绘，干员的职业也时有出错，主人们可以在\src\data\operator.js中修改相关干员数据。
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
